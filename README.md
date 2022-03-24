@@ -26,7 +26,7 @@
 ```html
 <script src="https://sdk.deephearing.com/<company>/dhdenoise.bundle.js"></script>
 ```
-<code>.html</code>
+<code>.js</code>
 ```javascript
 const denoise = window.DeepHearing.Denoise;
 ```
