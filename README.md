@@ -24,26 +24,24 @@
 ### How to initialize
 <code>.html</code>
 ```html
-<script src="..url/denoise.bundle.js"></script>
+<script src="https://sdk.deephearing.kr/<company>/dhdenoise.bundle.js"></script>
 ```
 <code>.html</code>
 ```javascript
 const denoise = window.DeepHearing.Denoise;
 ```
 
-### create(stream: MediaStream) : MediaStream
+### async appendDenoiserToStream(stream: MediaStream) : MediaStream
 
 ```javascript 
-const rawStream = await navigator.mediaDevices.getUserMedia(audioConstraints);
-const dhStream = denoise.create(rawStream);
+const stream = await navigator.mediaDevices.getUserMedia(audioConstraints);
+const streamWithDenoiser = await denoise.appendDenoiserToStream(stream);
 ```
 
-### enable(isEnabled: boolean) : void
+### setDenoiseState(isEnabled: boolean) : void
 
 ```javascript 
-denoise.enable(true); // on
-// or
-denoise.enable(false); // off
+denoise.setDenoiseState(true/false);
 ```
 
 ### getConstraints(void) : void
