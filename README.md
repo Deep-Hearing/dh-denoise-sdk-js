@@ -24,7 +24,7 @@
 ### How to initialize
 <code>.html</code>
 ```html
-<script src="https://sdk.deephearing.kr/<company>/dhdenoise.bundle.js"></script>
+<script src="https://sdk.deephearing.com/<company>/dhdenoise.bundle.js"></script>
 ```
 <code>.html</code>
 ```javascript
