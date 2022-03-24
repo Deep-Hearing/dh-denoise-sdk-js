@@ -57,18 +57,3 @@ denoise.getConstraints();
 ```javascript 
 denoise.getVersion();
 ```
-
-<hr>
-
-<h2><a href="https://aws.github.io/amazon-chime-sdk-js/modules/amazonvoice_focus.html#browser-compatibility">브라우저 지원 여부</a></h2>
-
-|Browser| Minimum supported version | Preferred version | Notes |
-|-------|---------------------------|-------------------|-------|
-|Firefox|76|83+||
-|Chromium-based<br>browsers and environments,<br>including Edge and Electron|78|87+||
-|Safari|14.1|-||
-|Android browser|78*|87*||
-|IOS Safari|IOS14|-||
-|IOS Chrome|IOS14|-||
-|IOS Firefox|IOS14|-||
-
